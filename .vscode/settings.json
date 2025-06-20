@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\PixelGeek04\\develop-unpack-file\\mysql-connector-java-8.0.13.jar"
+    ]
+}
