@@ -88,7 +88,7 @@ public class LoginView extends JFrame {
             if (user != null) {
                 JOptionPane.showMessageDialog(this, "登录成功！");
                 // 登录成功后跳转到主界面（此处需根据实际主界面类名修改）
-                // new MainView().setVisible(true);
+                new MainView(user).setVisible(true);
                 dispose();
             } else {
                 JOptionPane.showMessageDialog(this, "用户名或密码错误");
