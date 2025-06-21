@@ -30,7 +30,7 @@ public class MainView extends JFrame {
     }
 
     private void initUI() {
-        setTitle("费用记账系统 - " + currentUser.getUsername());
+        setTitle("智能记账管理系统 - " + currentUser.getUsername());
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
